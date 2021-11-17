@@ -11,3 +11,6 @@ __________
 <a href="https://t.me/ElectronUserBot"><img src="https://img.shields.io/badge/Electron-Kanal%20-red.svg?logo=Telegram"></a>
 <a href="https://t.me/ElectronDestek"><img src="https://img.shields.io/badge/Electron-Destek%20-blue.svg?logo=telegram"></a>
 
+# Geliştiriciler
+@[Anossa](https://t.me/BYAnossa)
+@[Aylak](https://t.me/atayist)
