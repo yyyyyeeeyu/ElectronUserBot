@@ -4,4 +4,4 @@
  
  
  ## Support 🚑
-<a href="https://t.me/ElectronUserBot"><img src="https://img.shields.io/badge/Electron-Kanala%20Katıl-red.svg?logo=Telegram"></a>
+<a href="https://t.me/ElectronUserBot"><img src="https://img.shields.io/badge/Electron-Kanal%20-red.svg?logo=Telegram"></a>
