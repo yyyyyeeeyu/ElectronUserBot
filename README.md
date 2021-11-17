@@ -5,12 +5,15 @@ __________
 [![Büyüklük](https://img.shields.io/github/repo-size/AnossaTG/ElectronUserBot?style=flat-square&color=green)](https://github.com/AnossaTG/ElectronUserBot/)   
 [![Lisans](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/AnossaTG/ElectronUserBot/blob/main/LICENSE)
 __________
+
 __________
+ 
  ## Support 🚑
 <a href="https://t.me/ElectronUserBot"><img src="https://img.shields.io/badge/Electron-Kanal%20-red.svg?logo=Telegram"></a>
 <a href="https://t.me/ElectronDestek"><img src="https://img.shields.io/badge/Electron-Destek%20-blue.svg?logo=telegram"></a>
 __________
-## Geliştiriciler
+
+ ## Geliştiriciler
 @[Anossa](https://t.me/BYAnossa)
 @[Aylak](https://t.me/atayist)
 __________
