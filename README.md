@@ -2,7 +2,7 @@
 <h1 align="center"><b>ELECTRON USERBOT </b></h1>
 <h4 align="center">Güçlü, hızlı ve gelişmiş bir UserBot. 🇹🇷</h4>
  
- [![Büyüklük](https://img.shields.io/github/repo-size/TeamUltroid/Ultroid?style=flat-square&color=green)](https://github.com/AnossaTG/ElectronUserBot/)   
+ [![Büyüklük](https://img.shields.io/github/repo-size/AnossaTG/ElectronUserBot?style=flat-square&color=green)](https://github.com/AnossaTG/ElectronUserBot/)   
 
  
  ## Support 🚑
