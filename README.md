@@ -13,6 +13,6 @@
 
 
  ## Geliştiriciler
-@[Anossa](https://t.me/BYAnossa)
-@[Aylak](https://t.me/atayist)
+[@Anossa](https://t.me/BYAnossa)
+[@Aylak](https://t.me/atayist)
 
