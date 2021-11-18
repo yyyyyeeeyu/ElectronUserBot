@@ -1,1 +1,1 @@
-
+*LUCİ ŞURAYI HAZIRLA AQ*
