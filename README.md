@@ -31,7 +31,7 @@
 -   tüm bu sorumlulukları kabul etmiş olursunuz.
 ```
 
-### GEREKSİNİMLER
+### GEREKSİNİMLER 📒
 
 ```
 [+] Tüm Bu Zorunlu Varsları Eklediğinizden Emin Olun.
