@@ -8,11 +8,7 @@
 <a href="https://t.me/ElectronDestek"><img src="https://img.shields.io/badge/Electron-Destek%20-blue.svg?logo=telegram"></a>
 
 
- ## Geliştiriciler
-[@Anossa](https://t.me/BYAnossa)
-[@Aylak](https://t.me/atayist)
-
-# GEREKSİNİMLER
+ ### GEREKSİNİMLER
 
 ```
 [+] Tüm Bu Zorunlu Varsları Eklediğinizden Emin Olun.
@@ -22,4 +18,19 @@
     [-] MONGO_DB : Mongo DB Database URL'niz
     [-] LOG_GRP: Günlük Grubunuz/Kanal Sohbet İD. Bu Çok Önemlidir ve Bu Olmadan Bazı Modüller İyi Çalışmaz!
 [+] ElectronUserBot tüm zorunlu değişkenleri ayarlamadan çalışmayacaktır.
+```
+ # Örnekler - Pluginler 👊
+ 
+ ### Pluginler 🔧
+ 
+ ```python3
+from main_startup.core.decorators import friday_on_cmd
+from main_startup.helper_func.basic_helpers import edit_or_reply
+@electron_on_cmd(['selam'],
+    cmd_help={
+    "help": "Bu bir test",
+    "example": "{ch}selam"
+    })
+async def hello_world(client, message):
+    mg = await edit_or_reply(message, "'SElam Dünya!`")
 ```
