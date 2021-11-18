@@ -78,4 +78,4 @@ width="150">
 
 🛡 This project is protected by [The GNU Affero General Public License](https://github.com/AnossaTG/ElectronUserBot/blob/main/LICENSE).
 
-- ✅ All rights reserved.
+- ✅ Tüm hakları saklıdır.
