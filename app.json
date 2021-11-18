@@ -1,0 +1,69 @@
+{
+  "name": "Electron Userbot",
+  "description": "Pyrograma Dayalı Bir UserBot.",
+  "logo": "https://telegra.ph/file/b4e1e36c6b1fcb32dd997.jpg",
+  "keywords": [
+    "telegram",
+    "electron",
+    "plugin",
+    "telegrambot",
+    "anossatg"
+  ],
+  "repository": "https://github.com/AnossaTG/ElectronUserBot",
+  "website": "t.me/electronuserbot",
+  "success_url": "t.me/ElectronPlugin",
+  "stack": "container",
+  "env": {
+    "API_ID": {
+      "description": "Bu değeri my.telegram.org'dan alın! Lütfen ÇALMAYIN",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Bu değeri my.telegram.org'dan alın! Lütfen ÇALMAYIN",
+      "value": ""
+    },
+    "MONGO_DB": {
+      "description": "Mongodb'da Veritabanı Oluşturun ve URL Alın. Doğru URL Girdiğinizden Emin Olun!",
+      "value": ""
+    },
+    "COMMAND_HANDLER": {
+      "description": "Komut İşleyiciniz. ",
+      "value": ".",
+      "required": false
+    },
+    "LOAD_UNOFFICIAL_PLUGINS": {
+      "description": "X-Tra Eklentilerini Yüklemek İstiyor musunuz?",
+      "value": "True"
+    },
+    "LOG_GRP": {
+      "description": "Önemli Günlükleri Kaydetmek İstediğiniz Grup Kimliği.",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "https://dashboard.heroku.com/account adresine gidin, aşağı kaydırın ve Reveal API'ye basın.",
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Yukarıda Doldurduğunuz Heroku Uygulama Adı.",
+      "value": ""
+    },
+    "UPSTREAM_REPO": {
+      "description": "Repo URL'si. (!DEĞİŞTİRMEYİN!)",
+      "value": "https://github.com/AnossaTG/ElectronUserBot",
+      "required": false
+    },
+    "BOT_TOKEN": {
+      "description": "Bot Token'iniz. @BotFather'dan alın. *Önemli değil",
+      "value": "",
+      "required": false
+    },
+    "TZ": {
+      "description": "Saat Dilimi",
+      "value": "Europe/İstanbul"
+    },
+    "STRINGSESSION": {
+      "description": "String Session, String Session almak için Support Grubu'na #String yazın.",
+      "value": ""
+    }
+  }
+}
