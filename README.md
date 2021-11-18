@@ -67,8 +67,6 @@ async def mentioned_(client, message):
 ```
 # Licence 📋
 
-https://github.com/AnossaTG/ElectronUserBot/blob/main/LICENSE
-
 <a
 href="https://github.com/AnossaTG/ElectronUserBot/blob/main/LICENSE">
 <img
