@@ -12,7 +12,19 @@
 -   Telegram'ı eğlenceli hale getirmek
 -   ve kullanımını kolaylaştırmak içindir.
 ```
-
+```
+💡  Electron UserBot sebebiyle;
+🚫  Telegram hesabınız kısıtlanabilir.
+🔔  AYRICA:
+-   Gruplara spam gönderip,
+-   Telegram'a şikayet edildiğinizde
+-   ve hesabınız silindiğinde
+-   BİZİ SUÇLAMAYIN!
+⛔️  Electron UserBot ve yöneticileri,
+-   hesabınız için hiçbir sorumluluk kabul etmemektedir.
+📍  Electron UserBot kurarak,
+-   tüm bu sorumlulukları kabul etmiş olursunuz.
+```
 ## Support 🚑
 <a href="https://t.me/ElectronUserBot"><img src="https://img.shields.io/badge/Electron-Kanal%20-red.svg?logo=Telegram"></a>
 <a href="https://t.me/ElectronDestek"><img src="https://img.shields.io/badge/Electron-Destek%20-blue.svg?logo=telegram"></a>
@@ -28,19 +40,6 @@
     [-] MONGO_DB : Mongo DB Database URL'niz
     [-] LOG_GRP: Günlük Grubunuz/Kanal Sohbet İD. Bu Çok Önemlidir ve Bu Olmadan Bazı Modüller İyi Çalışmaz!
 [+] ElectronUserBot tüm zorunlu değişkenleri ayarlamadan çalışmayacaktır.
-```
-```
-💡  Electron UserBot sebebiyle;
-🚫  Telegram hesabınız kısıtlanabilir.
-🔔  AYRICA:
--   Gruplara spam gönderip,
--   Telegram'a şikayet edildiğinizde
--   ve hesabınız silindiğinde
--   BİZİ SUÇLAMAYIN!
-⛔️  Electron UserBot ve yöneticileri,
--   hesabınız için hiçbir sorumluluk kabul etmemektedir.
-📍  Electron UserBot kurarak,
--   tüm bu sorumlulukları kabul etmiş olursunuz.
 ```
 
  # Örnekler - Pluginler 👊
