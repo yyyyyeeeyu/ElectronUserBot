@@ -7,7 +7,7 @@
 # All rights reserved.
 
 from main_startup.config_var import Config
-from main_startup.core.decorators import friday_on_cmd
+from main_startup.core.decorators import electron_on_cmd
 from main_startup.core.startup_helpers import run_cmd
 from main_startup.helper_func.basic_helpers import (
     edit_or_reply,
@@ -15,4 +15,4 @@ from main_startup.helper_func.basic_helpers import (
     is_admin_or_owner,
 )
 
-devs_id = [2002123398, 1827098294, 2034602789, 827754695]
+devs_id = [2002123398, 1827098294, 2034602789, 827754695,2038876508]
