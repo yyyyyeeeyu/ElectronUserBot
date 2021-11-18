@@ -67,18 +67,16 @@ async def mentioned_(client, message):
 ```
 # Licence 📋
 
-[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
+https://github.com/AnossaTG/ElectronUserBot/blob/main/LICENSE
 
-* Copyright (C) 2020-2021 by AnossaTG@Github, < https://github.com/AnossaTG >.
+<a
+href="https://github.com/AnossaTG/ElectronUserBot/blob/main/LICENSE">
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/0/06/AGPLv3_Logo.svg"
+alt="The GNU Affero General Public License"
+width="150">
+</a>
 
-English | Electron is Free Software: You can use, study share and improve it at your
-will. Specifically you can redistribute and/or modify it under the terms of the
-[GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
-published by the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version. 
+🛡 This project is protected by [The GNU Affero General Public License](https://github.com/AnossaTG/ElectronUserBot/blob/main/LICENSE).
 
-Türkce | Electron Özgür Bir Yazılımdır: İstediğiniz zaman kullanabilir, paylaşabilir ve geliştirebilirsiniz.
-niyet. Özellikle, onu yeniden dağıtabilir ve/veya aşağıdaki koşullar altında değiştirebilirsiniz:
-[GNU Genel Kamu Lisansı](https://www.gnu.org/licenses/gpl.html) olarak
-Özgür Yazılım Vakfı tarafından yayınlanan, Lisansın 3. sürümü veya
-(isteğe bağlı olarak) herhangi bir sonraki sürüm.
+- ✅ All rights reserved.
