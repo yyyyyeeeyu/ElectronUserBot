@@ -3,12 +3,12 @@
 <h4 align="center">Güçlü, hızlı ve gelişmiş bir UserBot. 🇹🇷</h4>
 
 
- ## Support 🚑
+## Support 🚑
 <a href="https://t.me/ElectronUserBot"><img src="https://img.shields.io/badge/Electron-Kanal%20-red.svg?logo=Telegram"></a>
 <a href="https://t.me/ElectronDestek"><img src="https://img.shields.io/badge/Electron-Destek%20-blue.svg?logo=telegram"></a>
 
 
- ### GEREKSİNİMLER
+### GEREKSİNİMLER
 
 ```
 [+] Tüm Bu Zorunlu Varsları Eklediğinizden Emin Olun.
@@ -21,7 +21,7 @@
 ```
  # Örnekler - Pluginler 👊
  
- ### Pluginler 🔧
+### Pluginler 🔧
  
  ```python3
 from main_startup.core.decorators import friday_on_cmd
@@ -32,5 +32,30 @@ from main_startup.helper_func.basic_helpers import edit_or_reply
     "example": "{ch}selam"
     })
 async def hello_world(client, message):
-    mg = await edit_or_reply(message, "'SElam Dünya!`")
+    mg = await edit_or_reply(message, "'Selam Dünya!`")
 ```
+### Özel Filtreler 📣
+
+```python3
+from main_startup.core.decorators import listen
+@listen(filters.mentioned)
+async def mentioned_(client, message):
+    await message.reply_text("`Selam Dünya! Bu arada neden benden bahsettiniz?`")
+```
+# Licence 📋
+
+[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
+
+* Copyright (C) 2020-2021 by AnossaTG@Github, < https://github.com/AnossaTG >.
+
+English | Electron is Free Software: You can use, study share and improve it at your
+will. Specifically you can redistribute and/or modify it under the terms of the
+[GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
+published by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version. 
+
+Türkce | Electron Özgür Bir Yazılımdır: İstediğiniz zaman kullanabilir, paylaşabilir ve geliştirebilirsiniz.
+niyet. Özellikle, onu yeniden dağıtabilir ve/veya aşağıdaki koşullar altında değiştirebilirsiniz:
+[GNU Genel Kamu Lisansı](https://www.gnu.org/licenses/gpl.html) olarak
+Özgür Yazılım Vakfı tarafından yayınlanan, Lisansın 3. sürümü veya
+(isteğe bağlı olarak) herhangi bir sonraki sürüm.
