@@ -12,7 +12,7 @@ __Herhangi bir istekte bulunmak, şikâyet ve öneri bildirmek için [destek gru
    • UserBot'u kullanarak sorumlulukları kendi üstünüze aldığınızı kabul etmiş olursunuz.
    • Herhangi bir kötüye kullanımda kesinlikle Electron UserBot'un yöneticileri sorumlu değildir.
 ```
-## Herokuya dağıt 📡
+## Herokuya Deploy 📡
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AnossaTG/ElectronUserBot)
 
-## Daha fazla bilgi almak için [tıklayınız.](https://t.me/ByAnossa)
+## Daha fazla bilgi almak için [tıklayınız.](https://t.me/ElectronDestek)
