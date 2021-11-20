@@ -1,5 +1,5 @@
 ----
-<h1>Electron UserBot</h1>
+<h1>✨ Electron UserBot ✨</h1>
 
 **Telegram kullanırken daha çok eğlenceli vakit geçirebilmek için yapılmış bir Userbot. Açık kaynaklı ve ücretsizdir.**
 
