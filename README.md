@@ -1,8 +1,8 @@
 ----
 <h1>Electron UserBot</h1>
-----
+
 **Telegram kullanırken daha çok eğlenceli vakit geçirebilmek için yapılmış bir Userbot. Açık kaynaklı ve ücretsizdir.**
-----
+
 `Herhangi bir istekte bulunmak, şikâyet ve öneri bildirmek için [destek grubundan](https://t.me/ElectronDestek) bize ulaşabilirsiniz.`
 
 ## Dikkat!
