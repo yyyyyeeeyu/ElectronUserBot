@@ -1,8 +1,8 @@
-# Copyright (C) 2020-2021 by DevsExpo@Github, < https://github.com/DevsExpo >.
+# Copyright (C) 2020-2021 by AnossaTG@Github, < https://github.com/AnossaTG >.
 #
-# This file is part of < https://github.com/DevsExpo/FridayUserBot > project,
+# This file is part of < https://github.com/AnossaTG/ElectronUserBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/DevsExpo/blob/master/LICENSE >
+# Please see < https://github.com/AnossaTG/ElectronUserBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -146,16 +146,16 @@ async def promote_me(client, message):
 @bot.on_message(filters.command(["demote"]) & filters.group)
 @_check_admin
 async def demote_you(client, message):
-    pablo = await message.reply("Processing...")
+    pablo = await message.reply("İşleniypr...")
     if not message.reply_to_message:
-        await pablo.edit("Please Reply To A User")
+        await pablo.edit("Lütfen Bir Kullanıcıya Cevap Verin")
         return
     lol = client.me
     user_s = await message.chat.get_member(lol.id)
     if user_s.status not in ("creator", "administrator"):
-        await pablo.edit("`I Don't Have Enough Permissions To Demote!`")
+        await pablo.edit("`Yetki almak için Yeterli İznim Yok!`")
         return
-    await pablo.edit("`Demoting The User!`") 
+    await pablo.edit("`Kullanıcının yetkisi alındı!`") 
     try:
         await client.promote_chat_member(
             message.chat.id,
@@ -171,17 +171,17 @@ async def demote_you(client, message):
             can_promote_members=False,
         )
     except:
-        await pablo.edit("`I Don't Have Enough Permissions To Demote!`")
+        await pablo.edit("`Yetki almak için Yeterli İznim Yok!`")
         return
-    await pablo.edit("`Demoted The User Successfully!`")
+    await pablo.edit("`Kullanıcının yetkisi alındı!`")
 
 
 @bot.on_message(filters.command(["id"]) & filters.incoming)
 async def id(client, message):
     if message.reply_to_message is None:
-        await message.reply(f"This chat's ID is: {message.chat.id}")
+        await message.reply(f"Bu sohbetin İD'si: {message.chat.id}")
     else:
-        test = f"Replied User's ID is: {message.reply_to_message.from_user.id}\n\nThis chat's ID is: {message.chat.id}"
+        test = f"Yanıtlanan Kullanıcının İD'si: {message.reply_to_message.from_user.id}\n\nBu sohbetin İD'si: {message.chat.id}"
         await message.reply(test)
 
 
@@ -200,17 +200,17 @@ async def info(client, message):
     if username:
         username = f"@{username}"
         text = f"""
-<b>User info</b>:
-ID: <code>{id}</code>
-First Name: {first_name}
-Username: {username}
-User link: {user_link}"""
+<b>Kullanıcı bilgisi</b>:
+İD: <code>{id}</code>
+Ad: {first_name}
+Kullanıcı adı: {username}
+Kullanıcı bağlantısı: {user_link}"""
     else:
         text = f"""
-<b>User info</b>:
-ID: <code>{id}</code>
-First Name: {first_name}
-User link: {user_link}"""
+<b>Kullanıcı bilgisi</b>:
+İD: <code>{id}</code>
+Ad: {first_name}
+Kullanıcı bağlantısı: {user_link}"""
     await message.reply(text, parse_mode="HTML")
 
 
@@ -232,19 +232,19 @@ async def ping(client, message):
 async def tts_(client, message):
     stime = time.time()
     text_to_return = message.text
-    lol = await message.reply("Processing....")
+    lol = await message.reply("İşleniyor....")
     try:
         lang = message.text.split(None, 1)[1]
     except IndexError:
-        lang = "en"
+        lang = "tr"
     if not message.reply_to_message:
-        await lol.edit("`Reply To Text To Convert To Text!`")
+        await lol.edit("`Metne Dönüştürmek İçin Metne Cevap Ver!`")
         return
     text = message.reply_to_message.text
     language = lang
     kk = gtts.lang.tts_langs()
     if not kk.get(language):
-        await lol.edit("`Unsupported Language!`")
+        await lol.edit("`Desteklenmeyen Dil!`")
         return
     await client.send_chat_action(message.chat.id, "record_audio")
     tts = gTTS(text, lang=language)
@@ -257,7 +257,7 @@ async def tts_(client, message):
     metadata = extractMetadata(createParser(f"{kk.get(language)}.ogg"))
     if metadata and metadata.has("duration"):
         duration = metadata.get("duration").seconds
-    owoc = f"**TTS** \n**Detected Text Language :** `{dec_s.capitalize()}` \n**Speech Text :** `{kk.get(language)}` \n**Time Taken :** `{hmm_time}s` \n__Powered By @FridayOT__"
+    owoc = f"**TTS** \n**Algılanan Metin Dili :** `{dec_s.capitalize()}` \n**Konuşma Metni :** `{kk.get(language)}` \n**Alınan Zaman : ** `{hmm_time}s` \n__Powered By @ElectronUserBot__"
     await message.reply_audio(
         audio=f"{kk.get(language)}.ogg", caption=owoc, duration=duration
     )
@@ -275,23 +275,23 @@ async def tr(client, message):
     except IndexError:
         lang = "en"
     if not message.reply_to_message:
-        await message.reply("Reply To Text To Translate")
+        await message.reply("Çevirilecek Metne Cevap Ver")
         return
     text = message.reply_to_message.text
     translator = google_translator()
     source_lan = detect(text)
     transl_lan = LANGUAGES[lang]
     translated = translator.translate(text, lang_tgt=lang)
-    tr_text = f"""**Source ({source_lan.capitalize()})**:
+    tr_text = f"""**Kaynak ({source_lan.capitalize()})**:
 `{text}`
-**Translation ({transl_lan.capitalize()})**:
+**Çeviri ({transl_lan.capitalize()})**:
 `{translated}`"""
     if len(tr_text) >= 4096:
         url = "https://del.dog/documents"
         r = requests.post(url, data=tr_text.encode("UTF-8")).json()
         url2 = f"https://del.dog/{r['key']}"
         tr_text = (
-            f"Translated Text Was Too Big, Never Mind I Have Pasted It [Here]({url2})"
+            f"Çevrilmiş Metin Çok Büyüktü, O yüzden [burada]({url2}) bulabilirsiniz.."
         )
     await message.reply(tr_text)
 
@@ -300,19 +300,19 @@ async def tr(client, message):
 @_check_owner_or_sudos
 async def broadcast(client, message):
     msg = None
-    lol = await message.reply("`Processing!`")
+    lol = await message.reply("`İşleniyor!`")
     if message.reply_to_message:
         msg = True
     else:
-        await lol.edit("`Please Reply Message To Broadcast!`")
+        await lol.edit("`Lütfen Yayın İçin Mesajı Cevaplayınız!`")
         return
     if msg is None:
-        await lol.edit("`Please Reply Message To Broadcast!`")
+        await lol.edit("`Lütfen Yayın İçin Mesajı Cevaplayınız!`")
         return
     s = 0
     f = 0
     total_users = await get_all_users()
-    tett = "**▶ You Received A BroadCast Message :**"
+    tett = "**▶ Bir Yayın Mesajı Aldınız :**"
     for user in total_users:
         user_id = user.get("user_id")
         try:
@@ -323,7 +323,7 @@ async def broadcast(client, message):
             f += 1
     if f > 0:
         await lol.edit(
-            f"Successfully Broadcasted to {s} users. Failed To Broadcast To {f} users.  Maybe They Blocked The Bot"
+            f"{s} kullanıcıya başarıyla yayınlandı. {f} kullanıcıya Yayınlanamadı. Belki Botu Engellemişlerdir"
         )
     else:
-        await lol.edit(f"Successfully Broadcasted to {s} users.")
+        await lol.edit(f"{s} kullanıcıya başarıyla mesaj yayınlandı.")
