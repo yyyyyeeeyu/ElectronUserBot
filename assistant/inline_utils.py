@@ -37,7 +37,7 @@ from pyrogram.types import (
 )
 from tinydb import Query, TinyDB
 from main_startup.core.startup_helpers import run_cmd
-from main_startup import CMD_LIST, XTRA_CMD_LIST, Friday, bot, electron_version
+from main_startup import CMD_LIST, XTRA_CMD_LIST, Electron, bot, electron_version
 from main_startup.config_var import Config
 from youtubesearchpython import SearchVideos
 from main_startup.helper_func.basic_helpers import (
