@@ -200,7 +200,7 @@ async def owo(client, inline_query):
         user, msg = ok.split(";")
         fu = int(user) if user.isdigit() else user
         try:
-            ui = await Friday.get_users(fu)
+            ui = await Electron.get_users(fu)
         except BaseException as e:
             logging.error(str(e))
             return
@@ -263,7 +263,7 @@ async def owo(client, inline_query):
         ]
         if Config.LOAD_UNOFFICIAL_PLUGINS:
             total_ = len(XTRA_CMD_LIST) + len(CMD_LIST)
-        nice_text = f"**ElectronUserBot Komutları** \n**Electron Sürümü :** __{friday_version}__ \n**PyroGram Sürümü :** __{__version__}__ \n**Yüklenen Toplam Eklenti Sayısı:** __{total_}__"
+        nice_text = f"**ElectronUserBot Komutları** \n**Electron Sürümü :** __{electron_version}__ \n**PyroGram Sürümü :** __{__version__}__ \n**Yüklenen Toplam Eklenti Sayısı:** __{total_}__"
         await client.answer_inline_query(
             inline_query.id,
             cache_time=0,
