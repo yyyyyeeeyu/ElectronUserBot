@@ -57,7 +57,7 @@ async def _sudo(f, client, message):
 
 _sudo = filters.create(func=_sudo, name="_sudo")
 
-def friday_on_cmd(
+def electron_on_cmd(
     cmd: list,
     group: int = 0,
     pm_only: bool = False,
