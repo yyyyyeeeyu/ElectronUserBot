@@ -188,13 +188,13 @@ def listen(filter_s):
                 except BaseException:
                     logging.error(text)
             message.continue_propagation()
-        Friday.add_handler(MessageHandler(wrapper, filters=filter_s), group=0)
-        if Friday2:
-            Friday2.add_handler(MessageHandler(wrapper, filters=filter_s), group=0)
-        if Friday3:
-            Friday3.add_handler(MessageHandler(wrapper, filters=filter_s), group=0)
-        if Friday4:
-            Friday4.add_handler(MessageHandler(wrapper, filters=filter_s), group=0)
+        Electron.add_handler(MessageHandler(wrapper, filters=filter_s), group=0)
+        if Electron2:
+            Electron2.add_handler(MessageHandler(wrapper, filters=filter_s), group=0)
+        if Electron3:
+            Electron3.add_handler(MessageHandler(wrapper, filters=filter_s), group=0)
+        if Electron4:
+            Electron4.add_handler(MessageHandler(wrapper, filters=filter_s), group=0)
         return wrapper
 
     return decorator
