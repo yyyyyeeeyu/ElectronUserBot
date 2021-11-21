@@ -35,18 +35,18 @@ from .config_var import Config
 
 
 async def mongo_check():
-    """Check Mongo Client"""
+    """Mongo İstemcisini Kontrol Edin"""
     try:
         await mongo_client.server_info()
     except BaseException as e:
-        logging.error("Something Isn't Right With Mongo! Please Check Your URL")
+        logging.error("Mongo'da Bir Sorun Var! Lütfen URL'nizi Kontrol Edin")
         logging.error(str(e))
         quit(1)
 
 
 async def load_unofficial_modules():
-    """Load Extra Plugins."""
-    logging.info("Loading X-Tra Plugins!")
+    """Ekstra Pluginleri Yükle."""
+    logging.info("X-Tra Pluginler Yükleniyor!")
     await run_cmd(f'bash bot_utils_files/other_helpers/xtra_plugins.sh {Config.XTRA_PLUGINS_REPO}')
     xtra_mods = plugin_collecter("./xtraplugins/")
     for mods in xtra_mods:
@@ -54,23 +54,23 @@ async def load_unofficial_modules():
             load_xtra_mod(mods)
         except Exception as e:
             logging.error(
-                "[USER][XTRA-PLUGINS] - Failed To Load : " + f"{mods} - {str(e)}"
+                "[ELECTRON][XTRA-PLUGINLER] - Yükleme başarısız : " + f"{mods} - {str(e)}"
             )
 
 
 async def fetch_plugins_from_channel():
-    """Fetch Plugins From Channel"""
+    """Kanaldan Pluginleri Al"""
     try:
-        async for message in Friday.search_messages(
+        async for message in Electron.search_messages(
             Config.PLUGIN_CHANNEL, filter="document", query=".py"
         ):
             hmm = message.document.file_name
             if not os.path.exists(os.path.join("./plugins/", hmm)):
-                await Friday.download_media(message, file_name="./plugins/")
+                await Electron.download_media(message, file_name="./plugins/")
     except BaseException as e:
-        logging.error(f"Failed! To Install Plugins From Plugin Channel Due To {e}!")
+        logging.error(f"{e} Nedeniyle Pluginleri Plugin Kanalından Yüklemek İçin ARIZALI!")
         return
-    logging.info("All Plugins From Plugin Channel Loaded!")
+    logging.info("Plugin Kanalından Gelen Tüm Pluginler Yüklendi!")
 
 
 async def run_bot():
@@ -78,7 +78,7 @@ async def run_bot():
         await update_it()
     except:
         pass
-    """Run The Bot"""
+    """Botu Çalıştır"""
     await mongo_check()
     if bot:
         await bot.start()
@@ -88,7 +88,7 @@ async def run_bot():
             try:
                 load_plugin(mods, assistant=True)
             except Exception as e:
-                logging.error("[ASSISTANT] - Failed To Load : " + f"{mods} - {str(e)}")
+                logging.error("[ASİSTAN]- Yükleme başarısız : " + f"{mods} - {str(e)}")
     await Electron.start()
     Electron.me = await Electron.get_me()
     Electron.selected_lang = await check_lang()
@@ -114,13 +114,13 @@ async def run_bot():
         try:
             load_plugin(nm)
         except Exception as e:
-            logging.error("[USER] - Failed To Load : " + f"{nm} - {str(e)}")
+            logging.error("[KULLANICI] - Yükleme başarısız : " + f"{nm} - {str(e)}")
     if Config.LOAD_UNOFFICIAL_PLUGINS:
         await load_unofficial_modules()
-    full_info = f"""Friday Based On Pyrogram V{__version__}
-Python Version : {platform.python_version()}
-Friday Version : {electron_version}
-You Can Visit @FridaySupportOfficial For Updates And @FridayChat For Any Query / Help!
+    full_info = f"""Pyrogram V{__version__}'a Dayalı Electron
+Python Sürümü: {platform.python_version()}
+Electron Sürümü : {electron_version}
+Güncellemeler için @ElectronUserBot'u ve Herhangi Bir Soru / Yardım için @ElectronDestek'i Ziyaret Edebilirsiniz!
 """
     logging.info(full_info)
     await pyrogram.idle()
