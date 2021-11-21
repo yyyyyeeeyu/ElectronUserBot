@@ -42,7 +42,7 @@ from bot_utils_files.Localization.engine import Engine as engin_e
 Engine = engin_e()
 
 
-sudo_list_ = Friday.loop.create_task(sudo_list())
+sudo_list_ = Electron.loop.create_task(sudo_list())
 
 async def _sudo(f, client, message):
     if not message:
