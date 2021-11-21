@@ -44,7 +44,7 @@ class Engine:
         logging.debug("Tüm diller Yüklendi.")
         
     def get_string(self, string):
-        lang_ = Friday.selected_lang
+        lang_ = Electron.selected_lang
         return (
             language_string.get(lang_).get(string)
             or f"**404_STRING_BULUNAMADI :** `Dize {string}, {lang} Dize Dosyasında Bulunamadı. - Lütfen @ElectronDestek`e Bildirin"
