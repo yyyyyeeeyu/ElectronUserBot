@@ -51,7 +51,7 @@ other_cmd_list = [
 async def chat_bot(client, message):
     if await is_user_blacklisted(message.chat.id):
         return
-    my_id = Friday.me.id
+    my_id = Electron.me.id
     owo = await message.forward(my_id)
     await add_msg_in_db(owo.message_id, message.from_user.id, message.message_id)
 
