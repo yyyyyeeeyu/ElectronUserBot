@@ -1,9 +1,9 @@
 ---
-name: Hata raporları
-about: Geliştirmemize yardımcı olacak bir rapor oluşturun.
-title: "[HATA]"
-labels: hata
-assignees: ''
+isim: Hata raporları
+hakkında: Geliştirmemize yardımcı olacak bir rapor oluşturun.
+başlık: "[HATA]"
+etiketler: hata
+atananlar: ''
 
 ---
 
