@@ -16,7 +16,7 @@ from .config_var import Config
 
 # Note StartUp Time - To Capture Uptime.
 start_time = time.time()
-friday_version = "V9.0"
+electron_version = "V1.0"
 
 # Enable Logging For Pyrogram
 logging.basicConfig(
