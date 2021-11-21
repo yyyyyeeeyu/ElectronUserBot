@@ -14,11 +14,11 @@ from database.chatbot_db import (
     rm_blacklisted_user,
 )
 from database.chatbot_msg_db import add_msg_in_db, get_user_id_frm_msg_id
-from main_startup.__main__ import Friday, bot
+from main_startup.__main__ import Electron, bot
 
 
 async def my_id_(f, client, message):
-    me = Friday.me.id
+    me = Electron.me.id
     if message.from_user.id == me:
         return bool(True)
     else:
