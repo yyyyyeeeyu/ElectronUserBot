@@ -74,7 +74,7 @@ async def owo(client, inline_query):
         user, msg = ok.split(";")
         fu = int(user) if user.isdigit() else user
         try:
-            ui = await Friday.get_users(fu)
+            ui = await Electron.get_users(fu)
         except BaseException as e:
             logging.error(str(e))
             return
