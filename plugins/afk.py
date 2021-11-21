@@ -30,7 +30,7 @@ async def is_afk_(f, client, message):
 is_afk = filters.create(func=is_afk_, name="is_afk_")
 
 
-@friday_on_cmd(
+@electron_on_cmd(
     ["afk"],
     propagate_to_next_handler=False,
     cmd_help={
