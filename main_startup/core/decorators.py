@@ -69,7 +69,7 @@ def electron_on_cmd(
     disable_sudo: bool = False,
     file_name: str = None,
     is_official: bool = True,
-    cmd_help: dict = {"Açıklama": "Sana Kimse Yardımcı Olmayacak", "example": "{ch}what"},
+    cmd_help: dict = {"__Açıklama__": "Sana Kimse Yardımcı Olmayacak", "__Kullanım__": "{ch}what"},
 ):
     """- Komutları Kaydetmek İçin Ana Dekoratör. -"""
     if disable_sudo:
@@ -141,7 +141,7 @@ def electron_on_cmd(
                     datetime_tz = datetime.now(TZ)
                     text = "**!HATA RAPORU!**\n\n"
                     text += f"\n**Geri iz : ** `{str(format_exc())}`"
-                    text += f"\n**Plugin-Adı :** `{func.__module__}`"
+                    text += f"\n**Plugin Adı :** `{func.__module__}`"
                     text += f"\n**Fonksiyon adı :** `{func.__name__}` \n"
                     text += datetime_tz.strftime(
                         "**Tarih :** `%Y-%m-%d` \n**Zaman :** `%H:%M:%S`"
