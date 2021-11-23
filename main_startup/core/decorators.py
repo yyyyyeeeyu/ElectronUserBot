@@ -69,7 +69,7 @@ def electron_on_cmd(
     disable_sudo: bool = False,
     file_name: str = None,
     is_official: bool = True,
-    cmd_help: dict = {"help": "Sana Kimse Yardımcı Olmayacak", "example": "{ch}what"},
+    cmd_help: dict = {"Açıklama": "Sana Kimse Yardımcı Olmayacak", "example": "{ch}what"},
 ):
     """- Komutları Kaydetmek İçin Ana Dekoratör. -"""
     if disable_sudo:
@@ -172,7 +172,7 @@ def listen(filter_s):
             except MessageEmpty:
                 pass
             except BaseException:
-                logging.error(f"Exception - {func.__module__} - {func.__name__}")
+                logging.error(f"İstisna - {func.__module__} - {func.__name__}")
                 TZ = pytz.timezone(Config.TZ)
                 datetime_tz = datetime.now(TZ)
                 text = "**!GÜNCELLEMELER İŞLENİRKEN HATA OLUŞTU!**\n\n"
