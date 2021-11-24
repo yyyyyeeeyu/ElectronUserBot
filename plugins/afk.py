@@ -34,8 +34,8 @@ is_afk = filters.create(func=is_afk_, name="is_afk_")
     ["afk"],
     propagate_to_next_handler=False,
     cmd_help={
-        "__Açıklama__": "AFK olun!",
-        "__Kullanım__": "{ch}afk",
+        "• __Açıklama__": "AFK olun!",
+        "• __Kullanım__": "{ch}afk",
     },
 )
 async def set_afk(client, message):
