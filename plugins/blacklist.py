@@ -36,8 +36,8 @@ from main_startup.helper_func.logger_s import LogIt
         "textblacklist",
     ],
     cmd_help={
-        "__Açıklama__": "Metin Kara Listesini / Engellenen Listesini Ekler",
-        "__Kullanım__": "{ch}blacklist porno",
+        "• __Açıklama__": "Metin Kara Listesini / Engellenen Listesini Ekler",
+        "• __Kullanım__": "{ch}blacklist porno",
     },
 )
 async def addblacklist(client, message):
@@ -57,7 +57,7 @@ async def addblacklist(client, message):
 
 @electron_on_cmd(
     ["listblacklist", "listblocklist"],
-    cmd_help={"__Açıklama__": "Kara Liste Listesini Kontrol Edin!", "__Kullanım__": "{ch}listblocklist"},
+    cmd_help={"• __Açıklama__": "Kara Liste Listesini Kontrol Edin!", "• __Kullanım__": "{ch}listblocklist"},
 )
 async def listblacklist(client, message):
     engine = message.Engine
@@ -74,8 +74,8 @@ async def listblacklist(client, message):
 @electron_on_cmd(
     ["delblacklist", "rmblacklist", "delblockist", "rmblocklist"],
     cmd_help={
-        "__Açıklama__": "Kara Listeden / Engellenenler Listesinden Metni Kaldırın!",
-        "__Kullanım__": "{ch}delblacklist porno",
+        "• __Açıklama__": "Kara Listeden / Engellenenler Listesinden Metni Kaldırın!",
+        "• __Kullanım__": "{ch}delblacklist porno",
     },
 )
 async def delblacklist(client, message):
@@ -120,8 +120,8 @@ async def activeblack(client, message):
 @electron_on_cmd(
     ["delblacklists", "rmblacklists", "delblockists", "rmblocklists"],
     cmd_help={
-        "__Açıklama__": "Her Şeyi Engellenenler Listesinden Kaldırın!",
-        "__Kullanım__": "{ch}delblacklists",
+        "• __Açıklama__": "Her Şeyi Engellenenler Listesinden Kaldırın!",
+        "• __Kullanım__": "{ch}delblacklists",
     },
 )
 async def delblacklists(client, message):
