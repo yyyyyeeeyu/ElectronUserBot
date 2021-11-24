@@ -69,7 +69,7 @@ def electron_on_cmd(
     disable_sudo: bool = False,
     file_name: str = None,
     is_official: bool = True,
-    cmd_help: dict = {"__Açıklama__": "Sana Kimse Yardımcı Olmayacak", "__Kullanım__": "{ch}what"},
+    cmd_help: dict = {"• __Açıklama__": "Sana Kimse Yardımcı Olmayacak", "• __Kullanım__": "{ch}what"},
 ):
     """- Komutları Kaydetmek İçin Ana Dekoratör. -"""
     if disable_sudo:
@@ -90,8 +90,8 @@ def electron_on_cmd(
         cmd=cmd[0],
         stack=inspect.stack(),
         is_official=is_official,
-        cmd_help=cmd_help["__Açıklama__"],
-        example=cmd_help["__Kullanım__"],
+        cmd_help=cmd_help["• __Açıklama__"],
+        example=cmd_help["• __Kullanım__"],
     )
     def decorator(func):
         async def wrapper(client, message):
