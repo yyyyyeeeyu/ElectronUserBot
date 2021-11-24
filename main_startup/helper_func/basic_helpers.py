@@ -270,17 +270,17 @@ def run_in_exc(f):
 
 
 def time_formatter(milliseconds: int) -> str:
-    """Zaman Biçimlendirici"""
+    """Time Formatter"""
     seconds, milliseconds = divmod(int(milliseconds), 1000)
     minutes, seconds = divmod(seconds, 60)
     hours, minutes = divmod(minutes, 60)
     days, hours = divmod(hours, 24)
     tmp = (
-        ((str(days) + " day(s), ") günler "")
-        + ((str(hours) + " hour(s), ") saatler "")
-        + ((str(minutes) + " minute(s), ") dakikalar "")
-        + ((str(seconds) + " second(s), ") saniyeler "")
-        + ((str(milliseconds) + " millisecond(s), ") milisaniyeler "")
+        ((str(days) + " day(s), ") if days else "")
+        + ((str(hours) + " hour(s), ") if hours else "")
+        + ((str(minutes) + " minute(s), ") if minutes else "")
+        + ((str(seconds) + " second(s), ") if seconds else "")
+        + ((str(milliseconds) + " millisecond(s), ") if milliseconds else "")
     )
     return tmp[:-2]
 
