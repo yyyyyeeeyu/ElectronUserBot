@@ -21,8 +21,8 @@ from main_startup.helper_func.basic_helpers import edit_or_reply, get_text
 @electron_on_cmd(
     ["badd"],
     cmd_help={
-        "help": "Broadcast İçin Grup/Kanal Ekle. Tümünü eklemek için girişi 'all' olarak verin.",
-        "example": "{ch}badd @ElectronUserBot",
+        "__Açıklama__": "Broadcast İçin Grup/Kanal Ekle. Tümünü eklemek için girişi 'all' olarak verin.",
+        "__Kullanım__": "{ch}badd @ElectronUserBot",
     },
 )
 async def badd(client, message):
@@ -66,8 +66,8 @@ async def badd(client, message):
 @electron_on_cmd(
     ["brm"],
     cmd_help={
-        "help": "Grubu/Kanalı Yayın dB'sinden Kaldırın!. Tümünü kaldırmak için girişi 'all' olarak verin.",
-        "example": "{ch}brm @ElectronUserBot",
+        "__Açıklama__": "Grubu/Kanalı Yayın dB'sinden Kaldırın!. Tümünü kaldırmak için girişi 'all' olarak verin.",
+        "__Kullanım__": "{ch}brm @ElectronUserBot",
     },
 )
 async def brm(client, message):
@@ -101,8 +101,8 @@ async def brm(client, message):
 @electron_on_cmd(
     ["broadcast"],
     cmd_help={
-        "help": "dB olarak eklenen Tüm Gruplarda/Kanallarda verilen mesajı yayınlar
-        "example": "{ch}broadcast (yayın mesajına cevap ver.)",
+        "__Açıklama__": "dB olarak eklenen Tüm Gruplarda/Kanallarda verilen mesajı yayınlar
+        "__Kullanım__": "{ch}broadcast (yayın mesajına cevap ver.)",
     },
 )
 async def broadcast(client, message):
