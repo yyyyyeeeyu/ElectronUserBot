@@ -90,8 +90,8 @@ def electron_on_cmd(
         cmd=cmd[0],
         stack=inspect.stack(),
         is_official=is_official,
-        cmd_help=cmd_help["help"],
-        example=cmd_help["example"],
+        cmd_help=cmd_help["__Açıklama__"],
+        example=cmd_help["__Kullanım__"],
     )
     def decorator(func):
         async def wrapper(client, message):
