@@ -23,8 +23,8 @@ from main_startup.helper_func.basic_helpers import edit_or_reply, get_text
 @electron_on_cmd(
     ["autopost"],
     cmd_help={
-        "__Açıklama__": "Otomatik Gönderi Listesine Kanal Ekle!",
-        "__Kullanım__": "{ch}autopost @ElectronUserBot",
+        "• __Açıklama__": "Otomatik Gönderi Listesine Kanal Ekle!",
+        "• __Kullanım__": "{ch}autopost @ElectronUserBot",
     },
     chnnl_only=True,
 )
@@ -55,8 +55,8 @@ async def autopost(client, message):
 @electron_on_cmd(
     ["rmautopost"],
     cmd_help={
-        "__Açıklama__": "Otomatik Gönderi Listesinden Bir Kanalı Kaldır.",
-        "__Kullanım__": "{ch}rmautopost @ElectronUserBot",
+        "• __Açıklama__": "Otomatik Gönderi Listesinden Bir Kanalı Kaldır.",
+        "• __Kullanım__": "{ch}rmautopost @ElectronUserBot",
     },
     chnnl_only=True,
 )
