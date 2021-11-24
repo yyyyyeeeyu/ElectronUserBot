@@ -34,8 +34,8 @@ is_afk = filters.create(func=is_afk_, name="is_afk_")
     ["afk"],
     propagate_to_next_handler=False,
     cmd_help={
-        "help": "AFK olun!",
-        "example": "{ch}afk",
+        "__Açıklama__": "AFK olun!",
+        "__Kullanım__": "{ch}afk",
     },
 )
 async def set_afk(client, message):
@@ -85,7 +85,7 @@ async def afk_er(client, message):
         afk_sanity_check[use_r] += 1
     if afk_sanity_check[use_r] == 5:
         await message.reply_text(
-            "`Size 5 Defa Sahibimin Müsait Olmadığını Söyledim Şimdi Cevap Vermeyeceğim. ;(`"
+            "`Size 5 Defa Sahibimin Müsait Olmadığını Söyledim. Şimdi Cevap Vermeyeceğim. ;(`"
         )
         afk_sanity_check[use_r] += 1
         return
