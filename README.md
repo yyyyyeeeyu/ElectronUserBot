@@ -11,7 +11,7 @@ width="200">
 
   <summary><b> 🔗 Heroku Üzerinden </b></summary><br>
   <strong> Heroku hesabı oluşturun ve aşağıda bulunan "deploy" butonuna tıklayın.
-[![Deploy](https://te.legra.ph/file/b52f839734787f55032e3.png)](https://heroku.com/deploy)
+[![Deploy](https://telegraph/file/b52f839734787f55032e3.png)](https://heroku.com/deploy)
 
 ## Varslar
 1. API_ID - [my.telegram.org](my.telegram.org) adresinden alın.
