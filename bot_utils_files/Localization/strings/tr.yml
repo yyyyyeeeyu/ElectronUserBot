@@ -1,0 +1,222 @@
+language: "tr"
+written_by: [AnossaTG]
+
+AFK_1: "**Sahibim Meşgul Görünüyor 👀.** \n __Sebep__: **{}**"
+NEEDS_REPLY: "**400_REPLY_TO_MESSAGE :** `Lütfen {} Şunu Yanıtlayın.`"
+AFK_2: "#AFK Sahibim şu an **AFK.** __Sebep__: {}"
+AFK_3: "**Şu an AFK'yım.**"
+AFK_4: "**Artık AFK değilim.**\n"
+AFK_5: "**Artık AFK değilim.**"
+INPUT_REQ: "**400_EXPECTED_INPUT:** `Girdi Bulunamadı.` **Beklenen :** `{}`"
+INVALID_CHAT_ID: "** 404_invalid_chat_id: ** `Verilen ID geçersiz. Lütfen kimliğin geçerli olduğundan emin olun."
+CHAT_ALREADY_IN_DB: "`Bu Sohbet Zaten DB'mde ve Tekrar Eklemek İçin Herhangi Bir Neden Bulamıyorum.`"
+AUTOPOSTING_1: "`Tamam, Şimdi Tüm İçeriği {}'den Buraya Otomatik Olarak Göndereceğim.`"
+AUTOPOSTING_2: "`Tamam, Artık {} İçeriğini Otomatik Olarak Yayınlamayacağım."
+CHAT_NOT_IN_DB: "`Bu Sohbet Veritabanımda Yok.`"
+BLACKLIST_1: "`Verilen Girdi Bu Sohbette Zaten Kara Listede.`"
+BLACKLIST_2: "`{} Kara Liste Veritabanına Başarıyla Eklendi.`"
+BLACKLIST_3: "`Bu Sohbet İçin Kara Liste Bulunamadı, Belki Biraz Ekleyebilirsiniz?`"
+BLACKLIST_4: "**Mevcut Sohbetteki Kara Listeler:** \n"
+BLACKLIST_5: "`Verilen Girdi Kara Liste DB'sinde Bulunamadı.`"
+BLACKLIST_6: "`{}` Kara Listeden kaldırıldı!"
+BLACKLIST_7: "**Kara Liste Uyarısı**\n\n**Sohbet :** `{}` - `{}`"
+BLACKLIST_8: "`Sohbet Kara Listelerindeki Tüm Kara Listeler Kaldırıldı!`"
+BROADCAST_1: "`{} Grup/Kanal Veritabanına Başarıyla Eklendi.\nToplam Grup/Kanal dB cinsinden - {}`"
+BROADCAST_2: "`Tüm Sohbetleri DB'ye Ekleme.`"
+BROADCAST_3: "`{} Yayın Listesine Eklendi.`"
+BROADCAST_4: "`{} Yayın Listesinden Kaldırıldı`"
+BROADCAST_5: "`Yayın Listesinden {} Sohbet Sayısı Kaldırıldı`"
+BROADCAST_6: "**Yayın Devam Ediyor. Lütfen Bekleyin!**"
+BROADCAST_7: "`Veritabanında Kanal veya Grup Bulunamadı. Lütfen Tekrar Kontrol Edin`"
+REPLY_MSG: "**408_REPLY_TO_MESSAGE:** `Lütfen Mesajı Cevaplayın.`"
+BROADCAST_8: "Mesaj `{}` grupta/kanalda Başarıyla Yayınlandı. `{}` içinde başarısız oldu"
+FILTER_1: "**404_{}_NOT_FOUND:** `{} Veritabanımda Bulunamadı`"
+FILTER_2: "`{} {} Veritabanından Silindi.`"
+FILTER_3: "`Bu Sohbet İçin {} Bulunamadı.`"
+LIST_OF: "`{} içindeki {} Listesi :` \n{}"
+FILTER_5: "`{} Veritabanıma {} Eklendi.`"
+REMOVED_ALL: "`Tüm {} Sohbetten Kaldırıldı`"
+FILE_TOOLS_1: "`Bu Sohbetten Dosyalar Alınıyor.`"
+FILE_TOOLS_2: "**Toplam Medya :** `{}` \n**İndirilen Medya :** `{}` \n**Eklenen Toplam Metinler :** `{}` \n**Artık Dosyalar Sıkıştırılıyor.**"
+FILE_TOOLS_3: "`2GB Üzerinden Dosya, Telegram Buna İzin Vermez. Dosyaları Bölmeye Çalışıyorum!`"
+FILE_TOOLS_5: "__Bu Dosyayı__ `{}` __içindeki__ `{}` __Hedefine İndirin__."
+FILE_TOOLS_6: "`Dosyaları Yüklemek veya Başparmak Olarak Ayarlamak İçin Bir Resmi Yanıtlayın!`"
+FILE_TOOLS_7: "`Özel Thumb Set, Tüm Dosyalar Bu Thumb ile Gönderilecek!`"
+F_404: "`404 : Dosya Bulunamadı.`"
+GPS_1: "`Lütfen GPS göndermek için konum sağlayın!`"
+GPS_2: "**404_LOCATION_NOT_FOUND:** `Sorgunuzla Eşleşen Konum Bulunamadı.`"
+NOT_ADMIN: "`Bu Sohbetin Admini değilsiniz. Bu Komut Çalışmak için Yönetici İzni Gerektirir`"
+REQ_PERM: "**400_NO_PERM :** `Bu Komutun Çalışması {} Gerektirir.`"
+REPLY_TO_PIN: "`Pin Mesajına Cevap Ver!`"
+UNABLE_TO_PIN: "Bu Mesajı Sabitleyemiyorum` \n**Hata :** `{}`"
+PINNED: "`I Have Pinned This Message!`"
+UNPINNED: "`All Pinned Message Has Been Unpinned Successfully."
+UNABLE_TO_UNPIN: "__Unable To Unpin Pinned Messages.__ \n**Error :** `{}`"
+CANT_FETCH_ADMIN: "Couldn't Fetch Chat {}, \n\n**TraceBack :** `{}`"
+TOTAL_ZOMBIES_USERS: "**Total Zombies (Members) :** `{}` \n"
+TOTAL_ZOMBIES_ADMINS: "\n**Total Zombies (Admins) :** `{}` \n"
+GRP_OWNER_IS_ZOMBIE: "\n__This Group Owner Deleted His Account :/__ \n"
+WIPE_THEM: "\n\nClean These Deleted Accounts By Using `.zombies clean` Command!"
+NO_ZOMBIES: "`No Zombies Found. Group is Clean 😊`"
+REMOVED_ZOMBIES: "`Successfully Removed {} Zombies!`"
+FAILED_ZOMBIES: "\nFailed to remove {} zombies as they are either admins or creator"
+TO_DO: "`Bruh, Please Reply To User / Give Me Username of ID To {}!`"
+USER_MISSING: "**400_BAD_USER :** `User is Invalid : {}`"
+TF_DO_IT: "🙄 Nice Idea, Lets {} Myself."
+FAILED_ADMIN_ACTION: "I Am Un-able To {} That User` \n**Error :** `{}`"
+DONE_LOG: "**#{}** \n**User :** [{}](tg://user?id={}) \n**Chat :** `{}` \n**Reason :** `{}`"
+PURGE_: "**>> Flash Purge Done!** \n**>> Total Message Purged :** `{}` \n**>> Time Taken :** `{}`"
+INVALID_MEDIA: "`This Media is Not Supported.`"
+DONE_: "`Done! Sucessfully Set This Pic As Chat Pic Of This Chat`"
+WAIT: "`Please Wait..`"
+PROCESSING: "`Processing...`"
+REPLY_TO_USER: "Reply To User Or Mention To {} Him`"
+SUDO_CANT: "Sudo Users Can't Be {}! Remove Him And Try Again!"
+NO_CHATS: "`You Have No Chats! So Sad`"
+GBAN_START: "`Starting GBans Now!`"
+HELP_OPEN_ERROR: "`Unable To Open Help Menu Here.` \n**ERROR :** `{}`"
+PLUGIN_NOT_FOUND: "<code>404: Plugin Not Found!</code>"
+CMD_LIST_MENU: "<b><u>📡 Electron Command List 📡</b></u> \n\n<b>⚒ Main Command List ({}) :</b> \n\n"
+CMD_LIST_MENU2: "\n\n<b>⚒ Xtra Command List ({}) :</b> \n\n"
+KNOW_MORE_ABOUT_PLUGIN: "\n\nUse <code>{}ahelp (cmd-name)</code> To Know More About A Plugin."
+MISSING_API_KEY: "**404_KEY_MISSING :** `This Command Needs {} To Work!`"
+HEROKU_DONT_MATCH: "`Heroku Api Key And App Name Doesn't Match!`"
+USAGE: "**Here is Usage Syntax :** `{}`"
+VAR_ADDED: "`Variable {} Added With Value {}!`"
+DE: "`This {} Doesn't Exists!`"
+DLTED_VAR: "`Sucessfully Deleted {} Var!`"
+REPLY_TO_INSTALL: "`Reply To A Plugin File To Install Plugin!`"
+IS_NOT_DOC: "`Is It A Even A Document?`"
+ALREADY_INSTALLED: "`This Plugin is Already Installed!`"
+ONLY_PY_FILES: "`Only Py Files :(`"
+ERROR_INSTALLING: "__Error Installing Plugin.__\n**Error :** `{}`"
+PLUGIN_INSTALLED: "`Sucessfully Installed {}!`"
+IAM_ADMIN: "I am Admin In All These Groups And Channels \n{}"
+NOT_ADDED: "`Note {} Deleted Successfully!`"
+GET_WITH: "Get Notes With `#NoteName`"
+PASTED: "Pasted Text To [HasteBin]({}) And For Raw [Click Here]({})"
+SET_PM_TEXT: "`Pm Permit Is Disabled. Whats The Use Of Adding Custom Pm Text?`"
+TO_SET_CUSTOM_TEXT: "`Reply To Text Message Or Give To Text As Input To SetAs Custom PM Text`"
+PM_MSG_CHANGED: "PM-Message Sucessfully Changed To `{}`"
+SET_PM_LIMIT: "`Pm Permit Is Disabled. Whats The Use Of Setting Pm Limit?`"
+TO_SET_PM_LIMIT: "`Pm Limit Should Be In Numbers From 3-20`"
+SUCCESS_CHANGED: "PM-Message-Limit Sucessfully Changed To `{}`"
+TO_BLOCK: "`Reply To User To {} Him !`"
+HACK_APPROVED: "`Pm Permit Is Disabled. Whats The Use Of {} User?`"
+USR_ALREADY_APPROVED: "`User is Already Approved!`"
+USR_NOT_APPROVED: "`This User is Not Approved!`"
+APPROVED_TO_PM: "Approved to pm [{}](tg://user?id={})"
+UNABLE_TO_CONVERT: "`Unable To Convert To Image, Perhaps Use Some Supported Media?`"
+SET_DONE_IMAGE: "`Sucessfully Set This Image As Pm Permit Media!`"
+RENAME_INPUT: "`Please Give New Name For File With Extension`"
+R_P: "⚡️`Rename and upload in progress, please wait!`⚡️"
+RENAME_DONE: "__File Renamed and Uploaded. By ElectronUserBot. Get your ElectronUserBot from__ @ElectronDestek"
+G_S: "**Search Query:**\n `{}` \n\n**Results:**\n {}"
+DUCK_DUCK_GO: "Let me 🦆 DuckDuckGo that for you:\n🔎 [{}]({})"
+STATS: "`Your Stats Obtained in {} seconds`
+`You have {} Private Messages.`
+`You are in {} Groups.`
+`You are in {} Super Groups.`
+`You Are in {} Channels.`
+`You Are Admin in {} Chats.`
+`Bots = {}`"
+REPLY_TO_STICKER: "`Please Reply To Sticker...`"
+KANG_MAGIC_: "`Using Megic To Kang This Sticker...`"
+KANG_FULL: "Kang Pack Vol __{}__ is Full! Switching To Vol __{}__ Kang Pack"
+ADDED_STICKER: "Sticker Added To Your Pack With Emoji - {}. You Can Find It [Here](https://t.me/addstickers/{})"
+TELEGRAPH_UP_FAILED: "__Unable To Telegraph!__ \n**TraceBack :** `{}`"
+TELEGRAPH: "Uploaded To Telegraph! \nLink : https://telegra.ph/{}"
+FIRST_NAME_CHANGE_FAILED: "`[Failed] - Unable To Update {}` \n**TraceBack :** `{}`"
+FIRST_NAME_CHANGED: "`{} Sucessfully Changed To {} !`"
+ADDED_CONTACT: "`Added {} To Contacts!`"
+UNABLE_TO_ADD_USER: "`Unable To Add Users! \nTraceBack : {}`"
+ADDED_USER: "Sucessfully Added {} To This Group / Channel!`"
+PURGED_MY_MSG: "`Purged {} Messages!`"
+TO_PURGE: "`Give No Of Message To Purge :/`"
+FAILED_TO_JOIN: "`[Failed] - To Join Chat` \n**TraceBack :** `{}`"
+JOINED: "`Sucessfully, Joined This Chat.`"
+REPLY_TO_MSG: "`Reply To Image / Video To Set As PPic`"
+UPDATE_PIC: "`[Failed] - Unable To Update PPic` \n**TraceBack :** `{}`"
+PIC_DONE: "`Sucessfully, Updated Profile Pic!`"
+REQ_POLL: "`Give Me Question & Options! See Help For More`"
+A_POLL_NEEDS: "`A Poll Needs 1+ Options!`"
+GIVE_OPTIONS: "`Give Me Options :/`"
+UPDATING_PLS_WAIT: "`Updating Please Wait!`"
+INVALID_GIT_CMD: "`Invalid Git Command. Please Report This Bug To @ElectronDestek`"
+CUSTOM_BRANCH: "`Seems Like You Are Using Custom Branch - {}! Please Switch To {} To Make This Updater Function!`"
+HEROKU_DETECTED: "`Heroku Detected! Pushing, Please Halt!`"
+UPDATED: "`Updated Sucessfully! Give Me A min To Restart!`"
+UPDATER_ERROR: "**Updater Error** \nTraceBack : `{}`"
+REPLY_TO_WELCOME: "`Reply To Message To Save As Welcome Message!`"
+WELCOME_SAVED: "`Done! Welcome Message Saved!`"
+YANDEX: "<b>Reverse Search Conpleted!</b>
+Reverse Searched Link:- {}
+> <code>Yandex is a Russian search engine, so better open link in chrome with auto-translate.</code>
+"
+IMG_NOT_FOUND: "Image Not Found In {}"
+REVERSING: "`Hmm... Reverse Searching The Image On {}...🚶`"
+LOOKING_FOR_IMG: "[{}]({})\n\n`Looking for this Image...`"
+PROCESS_FAILED: "`Failed To Get Results. Google Doesn't Seem Happy With Me."
+INVALID_RC_LANG: "`Invalid Language Selected!`"
+RC_OUTPUT_R: "**▶ Code :** \n`{}` 
+**▶ Result :** 
+`{}`
+**▶ Error :** 
+`{}`
+**▶ Stats :**
+ `{}`
+**▶ Success :** 
+ `{}`
+**▶ Warnings :** 
+ `{}`
+**▶ Reason :**
+ `{}`
+"
+RC_OUTPUT: "**▶ Code :** \n`{}` 
+**▶ Result :** 
+`{}`
+**▶ Error :** 
+`{}`
+**▶ Stats :**
+ `{}`
+**▶ Success :** 
+ `{}`
+**▶ Warnings :** 
+ `{}`
+"
+BASH_OUT: "**▶ CMD :**
+`{}`
+**▶ PID :**
+`{}`
+**▶ Error TraceBack (If Any) :**
+`{}`
+**▶ Output / Result (If Any) :**
+`{}`
+**▶ Return Code :** 
+`{}`
+"
+EVAL: "**▶ Code :** \n`{}` \n\n**▶ Output / TraceBack :** \n`{}`"
+NEEDS_C_INPUT: "`Invalid Input Given. Please Check Help Menu To Know More.`"
+UNSUPPORTED: "`Unsupported Input, Expected : {}`"
+TOO_BIG: "`Telegram Message Limit Exceeded, So The Out Put Has Been Paste To` [DogBin]({})"
+YTDL_FAILED: "**Youtube Download Failed!** \n**Error :** `{}`"
+NO_RESULTS: "`No Results Found For {}, Perhaps, You Can Be More Specific.`"
+GETTING_RESULTS: "`Searching Results Matching For {}. Please Wait.`"
+ALIVE_: "
+**{}'s Electron UserBot is Alive!**\n\n
+\n➔ **Version :** __{}__
+\n➔ **Uptime :** __{}__
+\n➔ **PyroGram Version :** __{}__
+\n➔ **Python Version :** __{}__
+\n➔ **OS :** __{}__
+\n➔ **CPU :** __{}__
+\n➔ **DISK USAGE :** __{}__
+"
+RESTART: "`🔄 Restarting.. 🔄`"
+USER_ALREADY_IN_SUDODB: "`This User - {} is Already in My Sudo DB. I Don't Think Its Wise To Add Him Again.`"
+ADDED_TO_SUDO: "`Added` {} `To My Sudo Database. Please Restart To Apply Changes.`"
+USER_ALREADY_NOT_IN_SUDODB: "`This User -` {} `is Not in My Sudo DB. I Don't Think Its Wise To Remove Him.`"
+RM_FROM_SUDO: "`Removed` {} `From My Sudo Database. Please Restart To Apply Changes.`"
+LIST_OF_SUDO: "`List Of Sudo Users :\n\n`"
+USER_ALREADY_APPROVED: "`This` {} `User is Already Approved.`"
+USER_NOT_APPROVED: "`This` {} `User is not Approved.`"
