@@ -68,8 +68,8 @@ DONE_LOG: "**#{}** \n**User :** [{}](tg://user?id={}) \n**Chat :** `{}` \n**Reas
 PURGE_: "**>> Flash Purge Done!** \n**>> Total Message Purged :** `{}` \n**>> Time Taken :** `{}`"
 INVALID_MEDIA: "`This Media is Not Supported.`"
 DONE_: "`Done! Sucessfully Set This Pic As Chat Pic Of This Chat`"
-WAIT: "`Please Wait..`"
-PROCESSING: "`Processing...`"
+WAIT: "`Bir az gözləyin...`"
+PROCESSING: "`Emal edilir...`"
 REPLY_TO_USER: "Reply To User Or Mention To {} Him`"
 SUDO_CANT: "Sudo Users Can't Be {}! Remove Him And Try Again!"
 NO_CHATS: "`You Have No Chats! So Sad`"
@@ -153,11 +153,11 @@ YANDEX: "<b>Reverse Search Conpleted!</b>
 Reverse Searched Link:- {}
 > <code>Yandex is a Russian search engine, so better open link in chrome with auto-translate.</code>
 "
-IMG_NOT_FOUND: "Image Not Found In {}"
-REVERSING: "`Hmm... Reverse Searching The Image On {}...🚶`"
-LOOKING_FOR_IMG: "[{}]({})\n\n`Looking for this Image...`"
-PROCESS_FAILED: "`Failed To Get Results. Google Doesn't Seem Happy With Me."
-INVALID_RC_LANG: "`Invalid Language Selected!`"
+IMG_NOT_FOUND: "Şəkil Tapılmadı {}"
+REVERSING: "`Hmm... Şəklin Əks Axtarışı Aktivdir {}...🚶`"
+LOOKING_FOR_IMG: "[{}]({})\n\n`Bu Şəkli Axtarıram...`"
+PROCESS_FAILED: "`Nəticələri əldə etmək alınmadı."
+INVALID_RC_LANG: "`Yanlış Dil Seçildi!`"
 RC_OUTPUT_R: "**▶ Kod :** \n`{}` 
 **▶ Nəticə :** 
 `{}`
@@ -212,12 +212,12 @@ ALIVE_: "
 \n➔ **CPU :** __{}__
 \n➔ **DISK İSTİFADƏSİ :** __{}__
 "
-RESTART: "`🔄 Restarting.. 🔄`"
-USER_ALREADY_IN_SUDODB: "`This User - {} is Already in My Sudo DB. I Don't Think Its Wise To Add Him Again.`"
-ADDED_TO_SUDO: "`Added` {} `To My Sudo Database. Please Restart To Apply Changes.`"
-USER_ALREADY_NOT_IN_SUDODB: "`This User -` {} `is Not in My Sudo DB. I Don't Think Its Wise To Remove Him.`"
-RM_FROM_SUDO: "`Removed` {} `From My Sudo Database. Please Restart To Apply Changes.`"
-LIST_OF_SUDO: "`List Of Sudo Users :\n\n`"
-USER_ALREADY_APPROVED: "`This` {} `User is Already Approved.`"
-USER_NOT_APPROVED: "`This` {} `User is not Approved.`"
+RESTART: "`🔄 Yenidən işə salınır... 🔄`"
+USER_ALREADY_IN_SUDODB: "`Bu istifadəçi - {} mənim DB-də artıq sudo istifadəçimdir. Mən Onu Yenidən Əlavə Etməyin Ağıllı Olduğunu Düşünmürəm.`"
+ADDED_TO_SUDO: "`Sudo verilənlər bazam üçün əlavə olundu` {}. Lütfən, Dəyişiklikləri Tətbiq Etmək üçün Yenidən Başladın.`"
+USER_ALREADY_NOT_IN_SUDODB: "`Bu istifadəçi -` {} ` Mənim DB-də sudo istifadəçi deyil. Onu Silmək Məncə Ağıllı Olmaz.`"
+RM_FROM_SUDO: "`Removed` {} `Sudo verilənlər bazamdan. Lütfən, Dəyişiklikləri Tətbiq etmək üçün Yenidən Başlayın.`"
+LIST_OF_SUDO: "`Sudo istifadəçilər siyahısı :\n\n`"
+USER_ALREADY_APPROVED: "`Bu` {} `İstifadəçi Artıq Təsdiqlənib.`"
+USER_NOT_APPROVED: "`Bu` {} `İstifadəçi Təsdiq edilməyib.`"
 
