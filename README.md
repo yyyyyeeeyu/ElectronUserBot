@@ -4,7 +4,7 @@ width="200">
 
 <p align="center">┃ <img src=https://readme-typing-svg.herokuapp.com?color=%23226A7E&size=31&height=100&lines=Electron+UserBot+⚡️> </p>
 </p>
- [![Sparkline](https://stars.medv.io/anossatg/bot.svg)](https://stars.medv.io/anossatg/bot)
+ [![Sparkline](https://stars.medv.io/anossatg/bot)
 
 <b><strong> 📱 Kurulum</strong></b>
 <details>
