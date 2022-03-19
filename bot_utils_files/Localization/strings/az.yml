@@ -53,8 +53,8 @@ PINNED: "`Bu Mesajı Sabitlədim!`"
 UNPINNED: "`Bütün Sabitlənmiş Mesajlar Uğurla Çıxarıldı.`"
 UNABLE_TO_UNPIN: "__Sabitlənmiş Mesajları Sabitdən Çıxartmaq Olmadı.__ \n**Xəta :** `{}`"
 CANT_FETCH_ADMIN: "Çat {} gətirilə bilmədi, \n\n**Geri iz :** `{}`"
-TOTAL_ZOMBIES_USERS: "**Ümumi Zombiler (Üyeler):** `{}` \n"
-TOTAL_ZOMBIES_ADMINS: "\n**Ümumi Zombiler (Yönetici):** `{}` \n"
+TOTAL_ZOMBIES_USERS: "**Ümumi Zombiler (Üzvlər):** `{}` \n"
+TOTAL_ZOMBIES_ADMINS: "\n**Ümumi Zombiler (Admin):** `{}` \n"
 GRP_OWNER_IS_ZOMBIE: "\n__Bu Qrup Sahibi Hesabını Silib :/__ \n"
 WIPE_THEM: "\n\nBu Silinən Hesabları `.zombies clean` Əmrindən İstifadə Edərək Təmizləyin!"
 NO_ZOMBIES: "`Zombi Tapılmadı. Qrup Təmizdir 😊`"
@@ -158,59 +158,59 @@ REVERSING: "`Hmm... Reverse Searching The Image On {}...🚶`"
 LOOKING_FOR_IMG: "[{}]({})\n\n`Looking for this Image...`"
 PROCESS_FAILED: "`Failed To Get Results. Google Doesn't Seem Happy With Me."
 INVALID_RC_LANG: "`Invalid Language Selected!`"
-RC_OUTPUT_R: "**▶ Code :** \n`{}` 
-**▶ Result :** 
+RC_OUTPUT_R: "**▶ Kod :** \n`{}` 
+**▶ Nəticə :** 
 `{}`
-**▶ Error :** 
+**▶ Xəta :** 
 `{}`
-**▶ Stats :**
+**▶ Statistika :**
  `{}`
-**▶ Success :** 
+**▶ Uğur :** 
  `{}`
-**▶ Warnings :** 
+**▶ Xəbərdarlıqlar :** 
  `{}`
-**▶ Reason :**
+**▶ Səbəb :**
  `{}`
 "
-RC_OUTPUT: "**▶ Code :** \n`{}` 
-**▶ Result :** 
+RC_OUTPUT: "**▶ Kod :** \n`{}` 
+**▶ Nəticə :** 
 `{}`
-**▶ Error :** 
+**▶ Xəta :** 
 `{}`
-**▶ Stats :**
+**▶ Statistika :**
  `{}`
-**▶ Success :** 
+**▶ Uğur :** 
  `{}`
-**▶ Warnings :** 
+**▶ Xəbərdarlıqlar :** 
  `{}`
 "
 BASH_OUT: "**▶ CMD :**
 `{}`
 **▶ PID :**
 `{}`
-**▶ Error TraceBack (If Any) :**
+**▶ TraceBack xətası (Əgər varsa) :**
 `{}`
-**▶ Output / Result (If Any) :**
+**▶ Çıxış / Nəticə (Əgər varsa) :**
 `{}`
-**▶ Return Code :** 
+**▶ Qayıdış Kodu :** 
 `{}`
 "
-EVAL: "**▶ Code :** \n`{}` \n\n**▶ Output / TraceBack :** \n`{}`"
-NEEDS_C_INPUT: "`Invalid Input Given. Please Check Help Menu To Know More.`"
-UNSUPPORTED: "`Unsupported Input, Expected : {}`"
-TOO_BIG: "`Telegram Message Limit Exceeded, So The Out Put Has Been Paste To` [DogBin]({})"
-YTDL_FAILED: "**Youtube Download Failed!** \n**Error :** `{}`"
-NO_RESULTS: "`No Results Found For {}, Perhaps, You Can Be More Specific.`"
-GETTING_RESULTS: "`Searching Results Matching For {}. Please Wait.`"
+EVAL: "**▶ Kod :** \n`{}` \n\n**▶ Çıxış / TraceBack :** \n`{}`"
+NEEDS_C_INPUT: "`Yanlış Daxiletmə Verildi. Ətraflı Məlumat Üçün Yardım Menüsünü Yoxlayın.`"
+UNSUPPORTED: "`Dəstəklənməyən Daxiletmə, Gözlənilir : {}`"
+TOO_BIG: "`Telegram Mesaj Limiti keçdi, Beləliklə, Çıxış [DogBin]({}) -ə yapışdırıldı."
+YTDL_FAILED: "**Youtube Yükləmə Alınmadı!** \n**Xəta :** `{}`"
+NO_RESULTS: "`Sonuç Bulunamadı {}, Bəlkə, Daha konkret ola bilərsiniz.`"
+GETTING_RESULTS: "`Uyğun gələn axtarış nəticələri {}. Bir az gözləyin.`"
 ALIVE_: "
-**{}'s Electron UserBot is Alive!**\n\n
-\n➔ **Version :** __{}__
-\n➔ **Uptime :** __{}__
-\n➔ **PyroGram Version :** __{}__
-\n➔ **Python Version :** __{}__
+**{}'s Electron UserBot Mükəmməl İşləyir!**\n\n
+\n➔ **Versiya :** __{}__
+\n➔ **İş vaxtı :** __{}__
+\n➔ **PyroGram Versiya :** __{}__
+\n➔ **Python Versiya :** __{}__
 \n➔ **OS :** __{}__
 \n➔ **CPU :** __{}__
-\n➔ **DISK USAGE :** __{}__
+\n➔ **DISK İSTİFADƏSİ :** __{}__
 "
 RESTART: "`🔄 Restarting.. 🔄`"
 USER_ALREADY_IN_SUDODB: "`This User - {} is Already in My Sudo DB. I Don't Think Its Wise To Add Him Again.`"
